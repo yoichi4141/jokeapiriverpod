@@ -1,16 +1,35 @@
-# fluttercook
+# 💩 fluttercook - Joke API × Riverpod 学習プロジェクト
 
-A new Flutter project.
+このプロジェクトは、Flutterでのアプリ開発学習を目的に作成した  
+**「ジョーク表示アプリ」**です。  
+外部の Joke API を使って、ランダムなジョークを取得・表示し、  
+**Riverpod** を用いた状態管理の実践練習も兼ねています。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 機能
 
-A few resources to get you started if this is your first Flutter project:
+- Official Joke API からランダムなジョークを取得
+- Riverpod を使った状態管理
+- 「もっと💩」ボタンで再取得
+- うんちワード（poop, toilet, fartなど）を含むジョークだけを抽出するフィルター機能（試験中）
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 使用技術
+
+- Flutter 3.x
+- Dart
+- Dio（API通信）
+- Riverpod（状態管理）
+- Official Joke API（https://official-joke-api.appspot.com）
+
+---
+
+## 🎮 使い方（ローカル実行）
+
+```bash
+git clone https://github.com/yourname/fluttercook.git
+cd fluttercook
+flutter pub get
+flutter run
